@@ -1,0 +1,15 @@
+@media (max-width: 459px) {
+    body {
+        background-color: aqua;
+        color: aliceblue;
+    }
+}
+
+body {
+    background-color: #808080;
+    color: white;
+}
+
+navbar {
+    float: left;
+}

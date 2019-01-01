@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title> Technical Documentation Page!! </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main id="main-doc">
+
+        <nav id="navbar">
+            <header> Which programming language to choose??</header>
+            <ul>
+                <li> <a class="nav-link" href="#javascript"> JavaScript</a> </li>
+                <li> <a class="nav-link" href="#java"> Java</a> </li>
+                <li> <a class="nav-link" href="#php">PHP </a> </li>
+                <li> <a class="nav-link" href="#nodejs">NodeJs </a> </li>
+
+            </ul>
+        </nav>
+
+        <section class="main-section" id="introduction">
+            <header id="header1"> Introduction </header>
+            <p> There are various programming languages.</p>
+            <p> Some of them are:</p>
+
+            <ol>
+                <li> JavaScript</li>
+                <li> Java</li>
+                <li> PHP</li>
+                <li> Ruby</li>
+                <li> Swift</li>
+            </ol>
+        </section>
+
+        <section class="main-section" id="javascript">
+            <header id="header2">JavaScript</header>
+            <p> JavaScript is the most used language in the world.</p>
+            <p>It is widely used. Example: </p>
+
+            <code>
+              var x = 10; <br>
+document.getElementById("demo").innerHTML = x;  
+            </code>
+
+            <code>
+                function myFunction() { <br>
+  var y = document.getElementById("txt1").value; <br>
+  var z = document.getElementById("txt2").value; <br>
+  var x = Number(y) + Number(z); <br>
+  document.getElementById("demo").innerHTML = x; <br>
+}
+            </code>
+        </section>
+
+        <section class="main-section" id="java">
+            <header id="header3"> Java </header>
+            <p>Java is mostly used by experienced and old programmers. </p>
+            <p> Most of the biggest companies in the world use Java. Example: </p>
+
+            <code>
+public class Prime { <br>
+<br>
+    public static void main(String[] args) { <br>
+<br>
+        int num = 29; <br>
+        boolean flag = false; <br>
+        for(int i = 2; i < = num / 2; ++i) <br>
+        { <br>
+            // condition for nonprime number <br>
+            if(num % i == 0)<br>
+            { <br>
+                flag = true; <br>
+                break; <br>
+            } <br>
+        } <br>
+<br>
+        if (!flag) <br>
+            System.out.println(num + " is a prime number."); <br>
+        else <br>
+            System.out.println(num + " is not a prime number."); <br>
+    } <br>
+}                
+            </code>
+        </section>
+
+        <section class="main-section" id="php">
+            <header id="header4">PHP</header>
+            <p> PHP stands for Hypertext Preprocessor.</p>
+            <p> It is a server-side scriptiong language. Example:</p>
+
+            <code>
+              < ? php  <br>
+$x=15;  <br>
+$y=30;  <br>
+$z=$x+$y;  <br>
+echo "Sum: ",$z;  <br>
+?>    
+            </code>
+        </section>
+
+        <section class="main-section" id="nodejs">
+            <header id="header5">NodeJS </header>
+            <p> NodeJS is an open-source, cross-platform JavaScript runtime environment.</p>
+            <p> It does server-side scripting of JavaScript. Example:</p>
+
+            <code>
+                { <br>
+  "name": "hello-world", <br>
+  "version": "1.0.0", <br>
+  "description": "", <br>
+  "main": "index.js", <br>
+  "scripts": { <br>
+    "test": "echo \"Error: no test specified\" && exit 1" <br>
+  }, <br>
+  "author": "", <br> 
+  "license": "ISC" <br>
+}
+            </code>
+        </section>
+
+
+    </main>
+</body>
+
+</html>
